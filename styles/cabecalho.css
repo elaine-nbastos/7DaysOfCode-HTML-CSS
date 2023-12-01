@@ -1,0 +1,25 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.container__subtitulo{
+    color: var(--cor-fonte-destaque);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container__titulo{
+    color: var(--cor-fonte-primaria);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.container__paragrafo{
+    color: var(--cor-fonte-secundaria);
+    font-size: 20px;
+    font-weight: 400;
+}

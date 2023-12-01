@@ -1,0 +1,29 @@
+.metricas__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_item_titulo{
+    color: var(--cor-fonte-destaque);
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+    padding: .5em 0;
+}
+
+.container__item__subtitulo{
+    color: var(--cor-fonte-primaria);
+    font-size: 18px;
+    font-weight: 500;
+    padding: .5em 0;
+}
+
+.container__item_texto{
+    color: var(--cor-fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+}
